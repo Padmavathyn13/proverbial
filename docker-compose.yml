@@ -4,5 +4,5 @@ services:
     build: .
     volumes:
       - .:/datadump
-devices:
-  - /dev/video0:/dev/video0
+    devices:
+      - /dev/video0:/dev/video0
